@@ -85,15 +85,15 @@ footer {
 
 #home {
     padding: 150px;
-    background-image: url("pic1.jpeg");
+    background-image: url("pictures/pic1.jpeg");
 }
 
 #about {
     padding: 150px;
-    background-image:/* linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.5)),*/ url("waterloo2.jpg");
+    background-image:/* linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.5)),*/ url("pictures/waterloo2.jpg");
 }
 
 #contact {
     padding: 150px;
-    background-image: /*linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),*/ url("waterloo1.jpg");
+    background-image: /*linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),*/ url("pictures/waterloo1.jpg");
 }
