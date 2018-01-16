@@ -4,8 +4,21 @@ body {
     margin: 0; 
 }
 
+h1 {
+    position: relative;
+    text-align: center;
+    right: 30px;
+    top: 275px;
+    color: rgb(244, 252, 255);
+    font-size: xx-large;
+}
+
+#name {
+    font-size: 200%;
+}
 
 ul {
+    z-index: 2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -44,7 +57,7 @@ article {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px;
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(255,255,255,0.5);
     padding: 10px;
 }
 
@@ -85,12 +98,14 @@ footer {
 
 #home {
     padding: 150px;
-    background-image: url("pictures/sky.jpg");
+    background-image: url("pictures/stephenpp.JPG");
+    background-attachment: fixed;
+    height: 60vh;
 }
 
 #about {
     padding: 150px;
-    background-image: url("pictures/waterloo2.jpg");
+    background-image: url("pictures/snowymountain.jpg");
 }
 
 #contact {
