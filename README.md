@@ -1,3 +1,4 @@
 # StephenHwang156.github.io
-# Personal Website for personal use
-# To be seen by anyone
+# stephenhwang.me
+
+Personal portfolio website to host my future projects, show some personality, and give way for people to contact me.
