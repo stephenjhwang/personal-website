@@ -1,3 +1,13 @@
+/* ********************************************** */
+/*          Stylesheet by Stephen Hwang           */
+/*                                                */
+/*                Table of Contents               */
+/*                 - tags                    */
+/*                 - classes                      */
+/*                 - ids                          */
+/*                                                */
+/* ********************************************** */
+
 body {
     font-family: sans-serif;
     background-color: rgb(244, 252, 255);
@@ -13,8 +23,8 @@ h1 {
     font-size: xx-large;
 }
 
-#name {
-    font-size: 200%;
+h2 {
+    text-align: center;
 }
 
 ul {
@@ -45,9 +55,16 @@ li a:hover {
     background-color: #8a8a8a;
 }
 
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    width: auto;
+}
 
 article {
-    border-bottom: 2px solid black;
+    border-bottom: 1.5px solid black;
 
     text-align: center;
     overflow: auto;
@@ -55,14 +72,14 @@ article {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-gap: 10px;
     background-color: rgba(255,255,255,0.5);
     padding: 10px;
 }
 
 .item1 {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 1;
 }
 
 .background {
@@ -72,22 +89,25 @@ article {
     background-attachment: fixed; 
 }
 
-h2 {
-    text-align: center;
-}
-
-footer {
-    padding: 50px;
-    text-align: center;
-    background-color: rgb(68, 68, 68);
-    color: white;
-    width: auto;
-}
-
 .multi_columns {
     column-count: 3;
     text-align: left;
     font-size: 20px;
+}
+
+.sideproject {
+    margin: 50px;
+}
+
+#name {
+    font-size: 200%;
+}
+
+#image {
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 20em;
+    width: 20em;
 }
 
 #content {
