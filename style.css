@@ -17,7 +17,6 @@ body {
 h1 {
     position: relative;
     text-align: center;
-    right: 30px;
     top: 275px;
     color: rgb(244, 252, 255);
     font-size: xx-large;
@@ -25,6 +24,10 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+h3 {
+    padding: 0 0 2em 0
 }
 
 ul {
@@ -78,8 +81,8 @@ article {
     padding: 10px;
 }
 
-.item1 {
-    grid-column: 1 / span 1;
+.span2 {
+    grid-column: 1 / span 2;
 }
 
 .background {
@@ -87,6 +90,17 @@ article {
     background-position: center center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
+}
+
+.image {
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    height: 20em;
+    width: 20em;
+}
+
+.image:hover {
+    box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
 }
 
 .multi_columns {
@@ -101,13 +115,6 @@ article {
 
 #name {
     font-size: 200%;
-}
-
-#image {
-    border: 1px solid black;
-    border-radius: 5%;
-    height: 20em;
-    width: 20em;
 }
 
 #content {
