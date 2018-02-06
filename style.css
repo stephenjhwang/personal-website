@@ -8,6 +8,10 @@
 /*                                                */
 /* ********************************************** */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     background-color: rgb(244, 252, 255);
@@ -113,6 +117,20 @@ article {
     margin: 50px;
 }
 
+.proj1 {
+    grid-column: 1 / span 1;
+}
+
+.proj2 {
+    grid-column: 2 / span 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .image{height: 15em; width: 15em}
+    .proj1 {grid-column: 1 / span 2}
+    .proj2 {grid-column: 1 / span 2}
+}
+
 #name {
     font-size: 200%;
 }
@@ -127,7 +145,7 @@ article {
     padding: 150px;
     background-image: url("pictures/stephenpp.JPG");
     background-attachment: fixed;
-    height: 60vh;
+    height: 100vh;
 }
 
 #about {
