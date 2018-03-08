@@ -107,6 +107,13 @@ article {
     box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
 }
 
+.image_contact {
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+    padding: 0.5em;
+}
+
 .multi_columns {
     column-count: 3;
     text-align: left;
