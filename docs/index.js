@@ -1,2 +1,1 @@
-var loading = document.getElementById("loading");
-window.onload = () => {loading.style.display = "none"};
+window.onload = () => {document.getElementById("loading").style.display = "none"};
