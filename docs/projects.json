@@ -1,0 +1,20 @@
+[
+  {
+    "name" : "Python Triangle Drawer/Solver",
+	"link" : "pictures/traingle.PNG",
+	"alt" : "Triangle Project",
+	"desc" : "A python program that solves a triangle using either angle sum theorem or pythagorean theoremand draws the triangle using tkinter labelled with angles and side lengths."
+  },
+  {  
+    "name" : "Twitter Bot",
+	"link" : "pictures/ifunny.PNG",
+	"alt" : "Twitter Bot Project",
+	"desc" : "A Twitter bot that scrapes image macros from ifunny.co, and posts them onto the designated Twitter account."
+  },
+  { 
+    "name" : "ReadingCyb.org",
+    "link" : "pictures/readingcyborg.png",
+	"alt" : "ReadingCyb.org Project",
+	"desc" : "An Alexa skill/app that reads children's literature from a database where stories are scraped from online databases."
+  }
+]
