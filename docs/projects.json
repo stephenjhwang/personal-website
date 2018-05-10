@@ -20,4 +20,11 @@
     "alt" : "ReadingCyb.org Project",
     "desc" : "An Alexa skill/app that reads children's literature from a database where stories are scraped from online databases."
   }
+  { 
+    "name" : "Up4TheTask",
+    "img" : "pictures/up4thetasksample.png",
+    "link" : "https://github.com/Twelvekeystrokes/up4thetask",
+    "alt" : "Up4TheTask project",
+    "desc" : "A multitasking game designed around four different aspects of university life and the difficulty in trying to balance it all. Created using Pygame and won best tech at StarterHacks"
+  }
 ]
