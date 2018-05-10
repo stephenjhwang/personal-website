@@ -2,22 +2,22 @@
   {
     "name" : "Python Triangle Drawer/Solver",
     "img" : "pictures/traingle.PNG",
-	  "link" : "https://github.com/StephenHwang156/Triangle-Solver-Drawer",
-	  "alt" : "Triangle Project",
-	  "desc" : "A python program that solves a triangle using either angle sum theorem or pythagorean theoremand draws the triangle using tkinter labelled with angles and side lengths."
+    "link" : "https://github.com/StephenHwang156/Triangle-Solver-Drawer",
+    "alt" : "Triangle Project",
+    "desc" : "A python program that solves a triangle using either angle sum theorem or pythagorean theoremand draws the triangle using tkinter labelled with angles and side lengths."
   },
   {  
     "name" : "Twitter Bot",
     "img" : "pictures/ifunny.PNG",
-	  "link" : "https://github.com/StephenHwang156/Twitter-Bot",
-	  "alt" : "Twitter Bot Project",
-	  "desc" : "A Twitter bot that scrapes image macros from ifunny.co, and posts them onto the designated Twitter account."
+    "link" : "https://github.com/StephenHwang156/Twitter-Bot",
+    "alt" : "Twitter Bot Project",
+    "desc" : "A Twitter bot that scrapes image macros from ifunny.co, and posts them onto the designated Twitter account."
   },
   { 
     "name" : "ReadingCyb.org",
     "img" : "pictures/readingcyborg.png",
     "link" : "https://github.com/Jaysonyan/reading-cyborg",
-	  "alt" : "ReadingCyb.org Project",
-	  "desc" : "An Alexa skill/app that reads children's literature from a database where stories are scraped from online databases."
+    "alt" : "ReadingCyb.org Project",
+    "desc" : "An Alexa skill/app that reads children's literature from a database where stories are scraped from online databases."
   }
 ]
