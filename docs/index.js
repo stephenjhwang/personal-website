@@ -1,14 +1,17 @@
-var requestURL = 'https://github.com/StephenHwang156/Stephens-website/blob/master/docs/projects.json'
+var requestURL = 'http://stephenhwang.me/projects.json'
 
-/* Alternative way to fetch data
+//Alternative way to fetch data
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
-*/
+
+request.onload = () => {
+    initialize(request.response);
+}
 
 function initialize(data) {
-    let grid = document.createElement('#content');
+    let grid = document.querySelector('#content');
     let div = document.createElement('div');
     let h3 = document.createElement('h3');
     let a = document.createElement('a');
@@ -47,7 +50,7 @@ function initialize(data) {
 
 }
 
-
+/*
 fetch(requestURL).then(function(response) {
     if(response.ok) {
       response.json().then(function(json) {
@@ -57,4 +60,5 @@ fetch(requestURL).then(function(response) {
       console.log('Network request for projects.json failed with response ' + response.status + ': ' + response.statusText);
     }
   });
+  */
 
