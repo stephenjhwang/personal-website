@@ -12,21 +12,24 @@ request.onload = () => {
 
 function initialize(data) {
     let grid = document.querySelector('#content');
-    let div = document.createElement('div');
-    let h3 = document.createElement('h3');
-    let a = document.createElement('a');
-    let img = document.createElement('img');
-    let para = document.createElement('p');
-
     let len = data.length;
 
     for (let i = 0; i < len; i++) {
+
+        let div = document.createElement('div');
+        let h3 = document.createElement('h3');
+        let a = document.createElement('a');
+        let img = document.createElement('img');
+        let para = document.createElement('p');
+        
         if (i === len - 1 && len % 2 === 1) {
             div.className = "span2";
         } else if (i % 2 === 1) {
             div.className = "proj2";
         } else if (i % 2 === 0) {
             div.className = "proj1";
+        } else {
+            console.log("Error in setting class name of div");
         }
 
         h3.textContent = data[i]['name'];
