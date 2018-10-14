@@ -25,6 +25,13 @@
     "img" : "pictures/up4thetasksample.png",
     "link" : "https://github.com/Twelvekeystrokes/up4thetask",
     "alt" : "Up4TheTask project",
-    "desc" : "A multitasking game designed around four different aspects of university life and the difficulty in trying to balance it all. Created using Pygame and won best tech at StarterHacks"
+    "desc" : "A multitasking game designed around four different aspects of university life and the difficulty in trying to balance it all. Created using Pygame and won best tech at StarterHacks."
+  },
+  { 
+    "name" : "Color Me Calm",
+    "img" : "pictures/ColorMeCalm.PNG",
+    "link" : "https://github.com/Jaysonyan/JammyJams",
+    "alt" : "Color Me Calm Project",
+    "desc" : "A color by number game where the user uploads a picture and colors a pixelated version of it, can select difficulty to increase the dimensions of the pixelated image grid."
   }
 ]
