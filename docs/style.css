@@ -24,11 +24,12 @@ body {
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 20rem;
+    top: 65%;
     color: rgb(255, 255, 255);
     font-size: 3rem;
+	left: 605px;
 }
 
 h2 {
@@ -48,7 +49,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #c7c7c7;
+    background-color: rgba(175, 204, 220, 0.8)
 }
 
 li {
@@ -61,10 +62,13 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    background: rgba(175, 204, 220, 0);
+    transition: 0.3s;
 }
 
 li a:hover {
-    background-color: #8a8a8a;
+    background-color: rgba(175, 204, 220, 1);
+    transition: 0.3s;
 }
 
 footer {
