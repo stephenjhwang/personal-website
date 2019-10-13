@@ -24,12 +24,11 @@ body {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     text-align: center;
     top: 65%;
     color: rgb(255, 255, 255);
     font-size: 3rem;
-	left: 605px;
 }
 
 h2 {
