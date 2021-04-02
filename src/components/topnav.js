@@ -4,17 +4,32 @@ import { Link } from 'gatsby'
 
 const Nav = styled.nav`
   display: grid;
-  grid-auto-columns: 
   height: 64px;
-  background-color: red;
+  background-color: #3e3e3e;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  font-size: 1.6rem;
+`
+
+const NavElement = styled(Link)`
+  text-align: center;
+  color: #f3f3f3;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    color: red;
+    transition: 0.25s
+  }
 `
 
 export default function TopNav() {
   return (
     <Nav style={{ color: `teal` }}>
-      <Link to="/about">About</Link>
-      <Link></Link>
-      <Link></Link>
+      <NavElement to="/about">About</NavElement>
+      <NavElement to="/about">About</NavElement>
+      <NavElement to="/about">About</NavElement>
+      <NavElement to="/about">About</NavElement>
     </Nav>
   )
 }

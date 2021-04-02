@@ -14,6 +14,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.2.2",
+    "@fontsource/merriweather": "^4.2.2",
+    "@fontsource/open-sans": "^4.2.2",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.32.8",
     "gatsby-plugin-styled-components": "^4.1.0",
