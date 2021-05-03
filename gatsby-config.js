@@ -1,18 +1,14 @@
 module.exports = {
     siteMetadata: {
-        title: `Gatsby Default Starter`,
-        description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-        author: `@gatsbyjs`,
+        title: `Stephen Hwang Personal Website`,
+        description: `Stephen Hwang's personal website to showcase himself and his work`,
+        author: `Stephen Hwang`,
     },
     plugins: [
-        {
-            resolve: `gatsby-plugin-styled-components`,
-            options: {
-              // Add any options here
-            },
-        },
+        `gatsby-plugin-styled-components`,
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`, // Needed for dynamic images
+        `gatsby-plugin-sass`
     ]
 }

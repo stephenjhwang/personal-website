@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import TopNav from '../components/topnav'
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
-import '../css/index.css'
+import '../css/index.scss'
 
 const Layout = styled.main`
   display: grid;
@@ -29,14 +29,14 @@ const HeadingContainer = styled.div`
   }
 `
 
-const Heading = styled.h1`
-  font-size: 6rem;
-  margin: 0;
+const ImageWrapper = styled.div`
+  @media (max-width: 768px) {
+    grid-column: span 2;
+  }
 `
 
-const Image = styled(StaticImage)`
-  width: 100%;
-  height: 100%;
+const TextContainer = styled.div`
+  grid-column: span 2;
 `
 
 const Text = styled.p`
@@ -46,16 +46,21 @@ const Text = styled.p`
 export default function About() {
   return (
     <>
+      <TopNav/>
       <Layout>
         <HeadingContainer>
-          <Heading>
+          <h1>
             About Me
-          </Heading>
+          </h1>
         </HeadingContainer>
-        <StaticImage src="../images/about/me.JPG" alt="Picture of Stephen Hwang"/>
-        <Text>
-          Hello, I am a 4th year Computer Science student at the Univeristy of Waterloo.
-        </Text>
+        <ImageWrapper>
+          <StaticImage src="../images/about/me.JPG" alt="Picture of Stephen Hwang" />
+        </ImageWrapper>
+        <TextContainer>
+          <Text>
+            Hello, I am a 4th year Computer Science student at the Univeristy of Waterloo.
+          </Text>
+        </TextContainer>
       </Layout>
     </>
   )

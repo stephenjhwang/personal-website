@@ -1,17 +1,16 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import styled from 'styled-components'
-import Socials from '../components/socials'
-import TopNav from '../components/topnav'
-import "@fontsource/inter"
-import "@fontsource/merriweather"
-import '../css/index.css'
+import * as React from "react";
+import { Link } from "gatsby";
+import styled from 'styled-components';
+import { StaticImage } from "gatsby-plugin-image"
+import "@fontsource/inter";
+import "@fontsource/merriweather";
+import '../css/index.scss';
 
 const PageLayout = styled.main`
   display: grid;
-  height: calc(100vh - 64px - 10%);
+  height: calc(100vh - 10%);
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
+  grid-auto-rows: 150px 1fr 1fr;
   max-width: 1100px;
   margin: auto;
   align-items: center;
@@ -23,11 +22,6 @@ const PageLayout = styled.main`
   }
 `
 
-const TileImage = styled.img`
-  height: 100%;
-  width: 100%;
-`
-
 const HeadingContainer = styled.div`
   grid-column: span 3;
 
@@ -35,38 +29,77 @@ const HeadingContainer = styled.div`
     grid-column: span 2;
   }
 `
-
-const TileLink = styled(Link)`
-  height: 100%;
-  width: 100%;
+const Caption = styled.p`
+  font-size: 1.3rem;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  text-align: center;
 `
 
-const Heading = styled.h1`
-  font-size: 6rem;
-  margin: 0;
+const TileContainer = styled.div`
+
+`
+
+const TileLink = styled(Link)`
 `
 
 // markup
 const IndexPage = () => {
   return (
   <>
-    <TopNav />
     <PageLayout>
       <HeadingContainer>
-        <Heading>Hi,<br/>I'm Stephen.</Heading>
+        <h1>Hi,<br/>I'm Stephen.</h1>
       </HeadingContainer>
-      <TileLink to="/about">
-        <TileImage src="https://stephenhwang.me/pictures/stephenpp.JPG" />
-      </TileLink>
-      <TileLink to="/404">
-        <TileImage src="https://stephenhwang.me/pictures/stephenpp.JPG" />
-      </TileLink>
-      <TileLink to="/404">
-        <TileImage src="https://stephenhwang.me/pictures/stephenpp.JPG" />
-      </TileLink>
-      <TileLink to="/404">
-        <TileImage src="https://stephenhwang.me/pictures/stephenpp.JPG" />
-      </TileLink>
+
+      <TileContainer>
+        <TileLink to="/about">
+          <StaticImage 
+            objectFit="contain"
+            alt="" 
+            src="https://stephenhwang.me/pictures/stephenpp.JPG"
+            placeholder="blurred"
+          />
+        </TileLink>
+        <Caption>About</Caption>
+      </TileContainer>
+
+      <TileContainer>
+        <TileLink to="/about">
+          <StaticImage 
+            objectFit="contain"
+            alt="" 
+            src="https://stephenhwang.me/pictures/stephenpp.JPG"
+            placeholder="blurred"
+          />
+        </TileLink>
+        <Caption>Projects</Caption>
+      </TileContainer>
+
+      <TileContainer>
+        <TileLink to="/about">
+          <StaticImage 
+            objectFit="contain"
+            alt="" 
+            src="https://stephenhwang.me/pictures/stephenpp.JPG"
+            placeholder="blurred"
+          />
+        </TileLink>
+        <Caption>Resume</Caption>
+      </TileContainer>
+
+      <TileContainer>
+        <TileLink to="/about">
+          <StaticImage 
+            objectFit="contain"
+            alt="" 
+            src="https://stephenhwang.me/pictures/stephenpp.JPG"
+            placeholder="blurred"
+          />
+        </TileLink>
+        <Caption>Photography</Caption>
+      </TileContainer>
+
     </PageLayout>
   </>
   )

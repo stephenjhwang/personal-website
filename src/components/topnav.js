@@ -1,7 +1,9 @@
 import * as React from "react"
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
+/*
 const Nav = styled.nav`
   display: grid;
   height: 64px;
@@ -22,14 +24,28 @@ const NavElement = styled(Link)`
     transition: 0.25s
   }
 `
+*/
+
+const Nav = styled.nav`
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+`
+
+const LinkSVG = styled(Link)`
+  width: 100%;
+  height: 100%;
+  display: block
+`
 
 export default function TopNav() {
   return (
-    <Nav style={{ color: `teal` }}>
-      <NavElement to="/about">About</NavElement>
-      <NavElement to="/about">About</NavElement>
-      <NavElement to="/about">About</NavElement>
-      <NavElement to="/about">About</NavElement>
+    <Nav>
+      <LinkSVG from="*" to="/">
+        <ArrowBackIcon style={{ fontSize: 40, color: "black" }} />
+      </LinkSVG>
     </Nav>
   )
 }
