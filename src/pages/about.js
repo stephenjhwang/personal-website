@@ -1,5 +1,4 @@
 import React from "react"
-import Link from "gatsby-link"
 import TopNav from '../components/topnav'
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
