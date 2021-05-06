@@ -4,6 +4,7 @@ module.exports = {
         description: `Stephen Hwang's personal website to showcase himself and his work`,
         author: `Stephen Hwang`,
     },
+    pathPrefix: "/personal-website",
     plugins: [
         `gatsby-plugin-styled-components`,
         `gatsby-plugin-image`,
