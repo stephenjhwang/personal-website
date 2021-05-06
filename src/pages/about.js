@@ -41,8 +41,8 @@ const TextContainer = styled.div`
 `
 
 const Text = styled.p`
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   overflow: auto;
 `
 
@@ -61,7 +61,9 @@ export default function About() {
         </ImageWrapper>
         <TextContainer>
           <Text>
-            Hello, I am a 4th year Computer Science student at the University of Waterloo. Besides the yada yada of life, I enjoy yeeting around and getting lit shiettt.
+            Hello, I am a 4th year Computer Science student at the University of Waterloo <strong>currently looking for a 2021 fall Internship</strong>. As a developer I love to do all things coding, from fullstack development to machine learning!
+            <br/><br/>
+            Besides software, I enjoy all forms of food-tainment, from Kitchen Nightmares to YouTube cooking channels. Unsurprisingly, my two favourite movies are Ratatouille and Chef! 
           </Text>
         </TextContainer>
       </Layout>

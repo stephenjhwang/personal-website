@@ -11,13 +11,12 @@ import "../css/index.scss";
 
 const PageLayout = styled.main`
   display: grid;
-  height: calc(100vh - 10%);
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 150px 1fr 1fr;
+  grid-auto-rows: 3.5rem 1fr 1fr;
   max-width: 1100px;
   margin: auto;
   align-items: center;
-  padding: 5% 20px;
+  padding: 45px 20px;
   gap: 20px;
 
   @media (max-width: 768px) {
@@ -32,6 +31,13 @@ const HeadingContainer = styled.div`
     grid-column: span 2;
   }
 `;
+
+const Heading = styled.h1`
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+`;
+
 const Caption = styled.p`
   letter-spacing: 0.4rem;
   font-size: 1.3rem;
@@ -52,17 +58,14 @@ const IndexPage = () => {
     <>
       <PageLayout>
         <HeadingContainer>
-          <h1>
-            Hi,
-            <br />
-            I'm Stephen.
-          </h1>
+          <Heading>
+            stephen hwang
+          </Heading>
         </HeadingContainer>
 
         <TileContainer>
           <TileLink to="/about">
             <StaticImage
-              objectFit="contain"
               alt=""
               src="../images/home/about-image.jpg"
               placeholder="blurred"
@@ -74,7 +77,6 @@ const IndexPage = () => {
         <TileContainer>
           <TileLink to="/projects">
             <StaticImage
-              objectFit="contain"
               alt=""
               src="../images/home/projects-image.jpg"
               placeholder="blurred"
@@ -86,7 +88,6 @@ const IndexPage = () => {
         <TileContainer>
           <TileLinkAsset href={Resume}>
             <StaticImage
-              objectFit="contain"
               alt=""
               src="../images/home/resume-image.jpg"
               placeholder="blurred"
@@ -98,7 +99,6 @@ const IndexPage = () => {
         <TileContainer>
           <TileLink to="/photography">
             <StaticImage
-              objectFit="contain"
               alt="photography"
               src="../images/home/photography-image.jpg"
               placeholder="blurred"

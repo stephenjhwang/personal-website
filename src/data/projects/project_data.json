@@ -1,22 +1,31 @@
 [
     {
-        "title": "project 1",
-        "image": "/projects/me.JPG",
-        "description": "description 1"
+        "title": "Color Me Calm",
+        "image": "/projects/color-me-calm.PNG",
+        "description": "A color by number game where the user uploads a picture and colors a pixelated version of it, can select difficulty to increase the dimensions of the pixelated image grid.",
+        "url": "https://github.com/Jaysonyan/ColorMeCalm"
     },
     {
-        "title": "project 2",
-        "image": "/projects/me.JPG",
-        "description": "description 2"
+        "title": "Up4TheTask",
+        "image": "/projects/up4thetask.png",
+        "description": "A multitasking game designed around four different aspects of university life and the difficulty in trying to balance it all. Created using Pygame and won best tech at StarterHacks.",
+        "url": "https://github.com/joshuajdu/up4thetask"
     },
     {
-        "title": "project 3",
-        "image": "/projects/me.JPG",
-        "description": "description 3"
+        "title": "Sorcery",
+        "image": "/projects/sorcery.JPG",
+        "description": "An ascii card game, similar to the likes of Hearthstone/Magic, that supports two players. Makes use of multiple design patterns such as Decorator Pattern to keep track of multiple stacking enhancements and Factory Method Pattern to generate the ~100 different cards."
     },
     {
-        "title": "project 4",
-        "image": "/projects/me.JPG",
-        "description": "description 4"
+        "title": "ReadingCyb.org",
+        "image": "/projects/reading-cyborg.png",
+        "description": "An Alexa skill/app that reads children's literature from a database where stories are scraped from online databases.",
+        "url": "https://github.com/Jaysonyan/reading-cyborg"
+    },
+    {
+        "title": "Twitter Bot",
+        "image": "/projects/twitter-bot.PNG",
+        "description": "A Twitter bot that scrapes image macros from ifunny.co, and posts them onto the designated Twitter account.",
+        "url": "https://github.com/StephenHwang156/Twitter-Bot"
     }
 ]

@@ -1,54 +1,58 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from "react"
+import styled from 'styled-components'
+import { Link } from "gatsby";
+import '../css/index.scss'
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+const Layout = styled.main`
+  display: grid;
+  max-height: 700px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px 1fr;
+  max-width: 1100px;
+  margin: auto;
+  align-items: center;
+  padding: 50px 20px;
+  gap: 20px;
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 150px 1fr 1fr;
+  }
+`
 
-// markup
-const NotFoundPage = () => {
+const HeadingContainer = styled.div`
+  grid-column: span 3;
+
+  @media (max-width: 768px) {
+    grid-column: span 2;
+  }
+`
+
+const TextContainer = styled.div`
+  grid-column: span 2;
+`
+
+const Text = styled.p`
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  overflow: auto;
+`
+
+export default function NotFoundPage() {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <>
+      <Layout>
+        <HeadingContainer>
+          <h1>
+            404: Page Not Found
+          </h1>
+        </HeadingContainer>
+        <TextContainer>
+          <Text>
+            <Link to="/">Go to Home</Link>
+          </Text>
+        </TextContainer>
+      </Layout>
+    </>
   )
 }
-
-export default NotFoundPage

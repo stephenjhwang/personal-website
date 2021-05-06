@@ -1,7 +1,6 @@
 import React from "react";
 import TopNav from "../components/topnav";
 import styled from "styled-components";
-import { StaticImage } from "gatsby-plugin-image";
 import ProjectData from "../data/projects/project_data.json";
 import ProjectComponent from "../components/project";
 import "../css/index.scss";
@@ -32,6 +31,7 @@ export default function Projects() {
             <ProjectComponent
               title={data.title}
               description={data.description}
+              url={data.url}
               image={data.image}
               key={index}
             />
