@@ -1,4 +1,0 @@
-User-agent: Googlebot
-Disallow: /*.json$
-Disallow: /*.pdf$
-Disallow: /*.md$
