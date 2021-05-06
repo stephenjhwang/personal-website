@@ -28,7 +28,7 @@ const StyledGallery = styled(Gallery)`
   display: grid;
 ` 
 
-export default function About() {
+export default function Photography() {
   return (
     <>
       <TopNav/>
