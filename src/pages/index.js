@@ -22,18 +22,13 @@ const PageLayout = styled.main`
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 3.5rem 2.5rem 1fr 1fr;
   }
 `;
 
 const HeadingContainer = styled.div`
   grid-column: span 2;
-
-  @media (max-width: 768px) {
-    grid-column: span 1;
-  }
 `;
-
-
 
 const Heading = styled.h1`
   font-family: "Inter", sans-serif;
@@ -57,16 +52,13 @@ const TileLinkAsset = styled.a``;
 
 // markup
 const IndexPage = () => {
-
   return (
     <>
       <PageLayout>
         <HeadingContainer>
-          <Heading>
-            stephen hwang
-          </Heading>
+          <Heading>stephen hwang</Heading>
         </HeadingContainer>
-
+        
         <ContactDialog />
 
         <TileContainer>
