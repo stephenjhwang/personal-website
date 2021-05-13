@@ -3,7 +3,6 @@ import TopNav from "../components/topnav";
 import styled from "styled-components";
 import ProjectData from "../data/projects/project_data.json";
 import ProjectComponent from "../components/project";
-import "../css/index.scss";
 
 const Layout = styled.main`
   display: grid;

@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
+import ContactDialog from "../components/dialog";
 import "@fontsource/inter";
 import "@fontsource/merriweather";
 
@@ -25,12 +26,14 @@ const PageLayout = styled.main`
 `;
 
 const HeadingContainer = styled.div`
-  grid-column: span 3;
+  grid-column: span 2;
 
   @media (max-width: 768px) {
-    grid-column: span 2;
+    grid-column: span 1;
   }
 `;
+
+
 
 const Heading = styled.h1`
   font-family: "Inter", sans-serif;
@@ -54,6 +57,7 @@ const TileLinkAsset = styled.a``;
 
 // markup
 const IndexPage = () => {
+
   return (
     <>
       <PageLayout>
@@ -62,6 +66,8 @@ const IndexPage = () => {
             stephen hwang
           </Heading>
         </HeadingContainer>
+
+        <ContactDialog />
 
         <TileContainer>
           <TileLink to="/about">
