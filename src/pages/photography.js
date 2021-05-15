@@ -7,7 +7,6 @@ import '../css/index.scss'
 
 const Layout = styled.main`
   display: grid;
-  height: calc(100vh - 100px);
   grid-template-columns: 1fr;
   grid-auto-rows: 175px 1fr;
   max-width: 1100px;
