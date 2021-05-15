@@ -61,7 +61,7 @@ export default function Project(props) {
       <ProjectImage alt="" src={props.image} />
       <ProjectInfo>
         <ProjectTitle>
-          <ProjectLink href={props.url || undefined} >
+          <ProjectLink target="_blank" href={props.url || undefined} >
             {props.title} { props.url ? <LinkIcon /> : null }
           </ProjectLink>
         </ProjectTitle>
