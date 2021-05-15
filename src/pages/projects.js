@@ -3,6 +3,7 @@ import TopNav from "../components/topnav";
 import styled from "styled-components";
 import ProjectData from "../data/projects/project_data.json";
 import ProjectComponent from "../components/project";
+import SEO from "../components/seo";
 
 const Layout = styled.main`
   display: grid;
@@ -11,6 +12,10 @@ const Layout = styled.main`
   align-items: center;
   padding: 50px 20px;
   gap: 50px;
+
+  @media (max-width: 768px) {
+    max-width: 500px;
+  }
 `;
 
 const HeadingContainer = styled.div`
@@ -20,6 +25,7 @@ const HeadingContainer = styled.div`
 export default function Projects() {
   return (
     <>
+      <SEO title="Projects" description="Personal projects" keywords={[`projects`]} />
       <TopNav />
       <Layout>
         <HeadingContainer>

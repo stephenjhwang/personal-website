@@ -1,12 +1,6 @@
 import React from "react";
 import Dialog from "@material-ui/core/Dialog";
-import DialogTitle from "@material-ui/core/DialogTitle";
 import styled from "styled-components";
-import Avatar from "@material-ui/core/Avatar";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import ListItemText from "@material-ui/core/ListItemText";
 import { RiPhoneFill, RiLinkedinBoxFill, RiMailFill } from "react-icons/ri";
 
 const ContactContainer = styled.div`

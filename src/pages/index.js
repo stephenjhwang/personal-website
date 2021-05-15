@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 import ContactDialog from "../components/dialog";
+import SEO from "../components/seo";
 import "@fontsource/inter";
 import "@fontsource/merriweather";
 
@@ -54,6 +55,7 @@ const TileLinkAsset = styled.a``;
 const IndexPage = () => {
   return (
     <>
+      <SEO title="Home" keywords={[`landing`, `home`]} />
       <PageLayout>
         <HeadingContainer>
           <Heading>stephen hwang</Heading>

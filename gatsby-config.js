@@ -1,7 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Stephen Hwang Portfolio`,
-        titleTemplate: `%s `,
+        title: `Stephen Hwang`,
         description: `Stephen Hwang's personal website to showcase himself and his work`,
         author: `Stephen Hwang`
     },

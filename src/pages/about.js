@@ -2,6 +2,7 @@ import React from "react"
 import TopNav from '../components/topnav'
 import styled from 'styled-components'
 import { StaticImage } from "gatsby-plugin-image"
+import SEO from "../components/seo";
 import '../css/index.scss'
 
 const Layout = styled.main`
@@ -49,6 +50,7 @@ const Text = styled.p`
 export default function About() {
   return (
     <>
+      <SEO title="About" keywords={[`about`, `information`]} />
       <TopNav/>
       <Layout>
         <HeadingContainer>

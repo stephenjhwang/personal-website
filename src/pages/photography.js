@@ -2,7 +2,7 @@ import React from "react"
 import TopNav from '../components/topnav'
 import Gallery from '../components/gallery'
 import styled from 'styled-components'
-//import { StaticImage } from "gatsby-plugin-image"
+import SEO from "../components/seo";
 import '../css/index.scss'
 
 const Layout = styled.main`
@@ -31,6 +31,7 @@ const StyledGallery = styled(Gallery)`
 export default function Photography() {
   return (
     <>
+      <SEO title="Photography" description="Personal Image Gallery" keywords={[`photography`, `gallery`, `images`, `pictures`]} />
       <TopNav/>
       <Layout>
         <h1>

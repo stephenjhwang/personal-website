@@ -1,5 +1,16 @@
 [
     {
+        "title": "Googit",
+        "image": "/projects/googit.jpg",
+        "description": "An inner-source tool to extend the functionality of Gitlab's search function. Allows the user to search for repos using a particular library and also shows some statistics such as how many times they use the library or what percentage of repos, organization-wide uses the library."
+    },
+    {
+        "title": "York University Badminton Club Website",
+        "image": "/projects/yorku.png",
+        "description": "A static website to show important information for the York University Badminton Club. Features include an image gallery and sleek design.",
+        "url": "https://github.com/StephenHwang156/york-badminton-club"
+    },
+    {
         "title": "Color Me Calm",
         "image": "/projects/color-me-calm.PNG",
         "description": "A color by number game where the user uploads a picture and colors a pixelated version of it, can select difficulty to increase the dimensions of the pixelated image grid.",
