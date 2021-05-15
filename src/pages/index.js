@@ -47,9 +47,21 @@ const Caption = styled.p`
 
 const TileContainer = styled.div``;
 
-const TileLink = styled(Link)``;
+const TileLink = styled(Link)`
+  transition: 0.2s;
 
-const TileLinkAsset = styled.a``;
+  &:hover {
+    opacity: 0.6;
+  }
+`;
+
+const TileLinkAsset = styled.a`
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+`;
 
 // markup
 const IndexPage = () => {
