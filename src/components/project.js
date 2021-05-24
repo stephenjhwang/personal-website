@@ -22,6 +22,8 @@ const ProjectTile = styled.div`
 `;
 
 const ProjectInfo = styled.div`
+  padding: 0 15px 20px 0;
+
   @media (max-width: 768px) {
     padding: 15px;
   }
