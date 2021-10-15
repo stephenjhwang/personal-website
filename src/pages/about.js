@@ -61,7 +61,7 @@ export default function About() {
         </ImageWrapper>
         <TextContainer>
           <Text>
-            Hello, I am a 4th year Computer Science student at the University of Waterloo <strong>currently looking for a 2021 fall Internship</strong>. As a developer I love to do all things coding, from fullstack development to machine learning!
+            Hello, I am a 4th year Computer Science student at the University of Waterloo <strong>currently looking for full-time opportunities and looking to start May 2022</strong>. As a developer I am particularly interested and experienced in back-end development and micro services!
             <br/><br/>
             Besides software, I enjoy all forms of food-tainment, from Kitchen Nightmares to YouTube cooking channels. Unsurprisingly, my two favourite movies are Ratatouille and Chef! 
           </Text>
