@@ -61,7 +61,7 @@ export default function About() {
         </ImageWrapper>
         <TextContainer>
           <Text>
-            Hello, I am a 4th year Computer Science student at the University of Waterloo <strong>currently looking for full-time opportunities and looking to start May 2022</strong>. As a developer I am particularly interested and experienced in back-end development and micro services!
+            Hello, I recently graduated as a Computer Science student at the University of Waterloo. At my time there I have explored a wide breadth of topics ranging from distributed systems to artificial intelligence, and have taken on 2 years worth of internships! After graduation I had a short, but valuable time at Nuro where I worked on the infrastructure to support robot teleoperations. Currently I am looking for full-time opportunities in backend development, infrastructure and microservices in Canada or the US!
             <br/><br/>
             Besides software, I enjoy all forms of food-tainment, from Kitchen Nightmares to YouTube cooking channels. Unsurprisingly, my two favourite movies are Ratatouille and Chef! 
           </Text>

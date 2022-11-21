@@ -95,7 +95,7 @@ export default function ContactDialog() {
           <ContactDetailIcon>
             <RiPhoneFill />
           </ContactDetailIcon>
-          <ContactDetailLabel>+1 (289) 933-0888</ContactDetailLabel>
+          <ContactDetailLabel>+1 (650) 861-7852</ContactDetailLabel>
         </ContactDetailContainer>
       </Dialog>
     </>
